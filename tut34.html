@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .card{
+        background-color: aqua;
+        padding: 24px 12px;
+        margin: 24px 12px;
+
+        /* box-shadow: 4px 4px green; */ 
+        /* used for bootom shadow  *
+
+        /* box-shadow: -4px -4px brown; */
+        /* used for upper shadow  */
+
+      /* box-shadow: 4px 4px 10px 34px rgb(67, 67, 163 , 0.3);    */
+
+      box-shadow: inset 4px 4px green;
+    }
+    .card h2{
+        font-style: italic;
+        text-shadow: 4px 4px white ;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2> This c++ course </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ut necessitatibus quae modi, dolorem voluptatum repellat, aliquam reiciendis, reprehenderit assumenda aperiam aliquid!</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>This is html course</h2>
+            <p>ipsum dolor sit, amet consectetur adipisicing elit. Repellat sit nisi expedita numquam, non cum quis quo eum velit fuga explicabo commodi.</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>This is vipin course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veniam ab qui quod illum nihil, blanditiis autem perspiciatis, nisi, minima rerum aspernatur?</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
